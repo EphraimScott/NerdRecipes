@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas do Nerd</title>
+</head>
+<body>
+
+   Website Management <br> <br>
+
+   Login <input type="text" id="login">
+   Password <input type="password" id="password">
+    <button onclick="autenticar()">Login</button>
+    
+    <script>
+        
+
+        function autenticar(){
+            var login = document.getElementById("login").value;
+            var senha = document.getElementById("password").value;
+
+            if(login== "nerd" && senha == 123){
+                alert("Welcome nerd!");
+            }else{
+                alert("Inavlid Login/Password!")
+            }
+        
+
+    }
+        /*function aloMundo(){
+            alert("Hello World!");
+        }*/
+    
+    </script>
+</body>
+</html>
